@@ -1,0 +1,10 @@
+a,b,c=5,6,7
+ra=a
+rb=b
+rc=c
+b=ra
+c=rb
+a=rc
+print(a)
+print(b)
+print(c)

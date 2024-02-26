@@ -10,3 +10,4 @@ if (ac=='Y'and bc=='Y') or (cc=='Y'and bc=='Y') or (cc=='Y'and ac=='Y'):
     if (at>=37 and bt>=37) or (at>=37 and ct>=37) or (bt>=37 and ct>=37):
         print('E')
     else: print("N")
+else : print("N")

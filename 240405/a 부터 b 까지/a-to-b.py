@@ -1,13 +1,14 @@
-arr=input().split()
+# 변수 선언, 입력
+inp = input()
+arr = inp.split()
+a = int(arr[0])
+b = int(arr[1])
+i = a
 
-a=int(arr[0])
-b=int(arr[1])
-
-for i in range (a,b):
-    if i%2==0:
-        print(i,end=' ')
-        i+=3
-
-    elif i%2==1:
-        print(i,end=' ')
-        i*=2
+# 출력
+while i <= b:
+	print(i, end=" ")
+	if i % 2 == 1:
+		i *= 2
+	else:
+		i += 3

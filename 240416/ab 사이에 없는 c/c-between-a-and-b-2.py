@@ -5,7 +5,7 @@ sat=True
 for i in range (a,b+1):
     if i%c!=0:
         sat=True
-    elif i%3==0:
+    elif i%c==0:
         sat=False
         break
 

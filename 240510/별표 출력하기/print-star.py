@@ -5,6 +5,6 @@ for i in range (n):
     print('')
 
 for i in range (n):
-    for i in range(n-i):
+    for i in range(n-i-1):
         print('*',end=" ")
     print('')
